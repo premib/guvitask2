@@ -32,6 +32,7 @@ async function teams(tableId, i, j){
 }
 
 let timer= async()=>{
+    document.getElementById('timer').style.display= 'none';
     document.getElementById('btn-team-1').style.display= 'block';
     let seconds: number= 60;
     let team1Score;
