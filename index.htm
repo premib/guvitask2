@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cricket</title>
+
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
     <script type="text/javascript" src="logic.js"></script>
 </head>
-<body onload="afterLoad()">
+<body>
     <div id="team-1">
         <h1>
             Team- 1 Score
         </h1>
-        <button id="btn-team-1">HIT</button>
+        <button id="btn-team-1" style="display:none;">HIT</button>
         <h2 id="h2-team-1-score" style="margin-left: 50%;"></h2>
         <br><br>
         <table id="tableTeam1">
@@ -63,14 +64,14 @@
     <div id="stats">
         <h1>TIMER</h1>
         <h1 id="timer" style="margin-left: 45%">60</h1>
-        <button id="btn-start-timer"  style="margin-left: 40%;">Start Timer</button>
+        <button id="btn-start-timer" onclick="timer()" style="margin-left: 40%;">Start Timer</button>
         <h2 id="h2-winner" style="margin-left: 25%"></h2>
     </div>
     <div id="team-2">
         <h1>
             Team- 2 Score
         </h1>
-        <button id="btn-team-2">HIT</button>
+        <button id="btn-team-2" style="display: none;">HIT</button>
         <h2 id="h2-team-2-score" style="margin-left: 50%;"></h2>
         <br><br>
         <table id="tableTeam2">
