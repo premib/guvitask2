@@ -71,6 +71,7 @@ var timer = function () { return __awaiter(_this, void 0, void 0, function () {
     var seconds, team1Score, timerInterval;
     var _this = this;
     return __generator(this, function (_a) {
+        document.getElementById('btn-start-timer').style.display = 'none';
         document.getElementById('btn-team-1').style.display = 'block';
         seconds = 60;
         timerInterval = setInterval(function () {
