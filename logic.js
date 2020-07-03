@@ -59,7 +59,6 @@ function teams(tableId, i, j) {
                     if (col == 6)
                         change();
                     col++;
-                    console.log(ultimateTotal);
                     if (row == 10) {
                         res(ultimateTotal);
                     }
